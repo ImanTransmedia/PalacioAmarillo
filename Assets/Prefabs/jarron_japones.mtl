@@ -1,0 +1,35 @@
+newmtl jarron_Japones_origSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl meshSG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd jarron_colores_retopo_Transferred_Texture_from_Mesh.png
+map_Ka jarron_colores_retopo_Ambient_Occlusion_Map_from_Mesh.png
+bump  -bm 1 jarron_colores_retopo_Normal_Map_from_Mesh.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd jarron_japones_retopo_Transferred_Texture_from_Mesh.png
+map_Ka jarron_japones_retopo_Ambient_Occlusion_Map_from_Mesh.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
