@@ -213,7 +213,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 269382964968934099, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: _yThresholdForRespawn
-      value: 0.48
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1480449664965557881, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_Mesh
@@ -222,6 +222,10 @@ PrefabInstance:
     - target: {fileID: 1528961743351393201, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_Name
       value: SimpleGrab4ComboGrab Variant 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528961743351393201, guid: 31b41985617650a4e920730a95c0119d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2028127429690480179, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -538,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 4689865765848748798, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962577530873550309, guid: 31b41985617650a4e920730a95c0119d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121036550994415474, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: _handGrabPoses.Array.size
@@ -2085,7 +2093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35439d02c0b5b4f4cb62afb3bcc02967, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.0891
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35439d02c0b5b4f4cb62afb3bcc02967, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4872,6 +4880,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: OVRCameraRigInteraction Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1250878067301537782, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
+      propertyPath: useFixedUpdateForTracking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250878067301537788, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
+      propertyPath: requestBodyTrackingPermissionOnStartup
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250878067859913553, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
+      propertyPath: _disableProactiveEvaluation
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1282426322729230131, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4912,6 +4932,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4660295379326458245, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
+      propertyPath: _maxIterationsPerFrame
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660295379985453088, guid: 0dc7387da9d9d384e8dfbe0a2d3b8223, type: 3}
+      propertyPath: _maxIterationsPerFrame
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4927,7 +4955,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 269382964968934099, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: _yThresholdForRespawn
-      value: 0.48
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1480449664965557881, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_Mesh
@@ -4936,6 +4964,10 @@ PrefabInstance:
     - target: {fileID: 1528961743351393201, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_Name
       value: SimpleGrab4ComboGrab Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528961743351393201, guid: 31b41985617650a4e920730a95c0119d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2028127429690480179, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5240,6 +5272,10 @@ PrefabInstance:
     - target: {fileID: 4689865765848748798, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962577530873550309, guid: 31b41985617650a4e920730a95c0119d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121036550994415474, guid: 31b41985617650a4e920730a95c0119d, type: 3}
       propertyPath: _handGrabPoses.Array.size
