@@ -10,8 +10,9 @@ public class BlurOnGrab : MonoBehaviour
     [SerializeField]
     private GameObject padre;
     [SerializeField]
+    private GameObject texto;
+    [SerializeField]
     private Volume blur;
-
 
     int blurLayer = 0;
 
@@ -30,6 +31,7 @@ public class BlurOnGrab : MonoBehaviour
     {
         // Check if random chance is set
         padre.layer = blurLayer;
+        texto.SetActive(true);
         blur.weight = 0.9f;
     }
 
@@ -37,6 +39,7 @@ public class BlurOnGrab : MonoBehaviour
     {
         // Check if random chance is set
         padre.layer = 0;
+        texto.SetActive(false);
         blur.weight = 0;
     }
 }
